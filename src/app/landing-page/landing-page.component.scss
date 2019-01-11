@@ -1,5 +1,5 @@
 .content_search {
-    min-height: 40vh;
+    min-height: 20rem;
     background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("src/assets/img/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -10,9 +10,22 @@
 
 h1 {
     margin: 0 0 20px 0;
-    text-align: center;
+    padding-left: 5rem;
 }   
 
 p {
     margin: 0 0 20px 0;
 }
+
+.w_text {
+    color: white;
+}
+
+.b_space {
+    padding-top: 0.1rem;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }
